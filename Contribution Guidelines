@@ -1,0 +1,36 @@
+We welcome contributions from the community! Follow the steps below to contribute:
+
+Step-by-Step Contribution Process:
+1. Create a New Branch
+Always create a new branch to make your changes. It helps to keep the main codebase stable.
+
+Create a new branch with a descriptive name:
+  git checkout -b feature-branch-name
+
+2. Make Your Changes
+Make the necessary changes in your branch, whether it's fixing bugs, adding features, or improving documentation.
+
+3. Commit Your Changes
+Once your changes are ready, add them to Git:
+
+  git add .
+Write a clear, concise commit message:
+
+  git commit -m "Description of the change"
+
+4. Push Your Changes
+Push your changes to your forked repository:
+  git push origin feature-branch-name
+
+5. Create a Pull Request
+Go to your GitHub repository.
+You should see a button to Compare & pull request.
+Click it, and write a description of the changes you’ve made.
+Submit your pull request for review.
+
+6. Wait for Review
+One of the project maintainers will review your pull request. They may request changes or approve and merge it.
+Guidelines:
+Code Style: Follow the coding style outlined in the repository. This could include linting rules or formatting styles (e.g., Prettier, ESLint).
+Commit Messages: Use descriptive commit messages that explain what the change does.
+Issue Tracking: If there’s an issue tracker, link your pull request to any open issues it fixes. Example: Fixes #42.
