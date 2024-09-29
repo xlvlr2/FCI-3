@@ -1,0 +1,24 @@
+Prerequisites:
+Git: Make sure Git is installed on your local machine. If not, download Git.
+GitHub Account: You need a GitHub account to fork the repository and contribute.
+Step-by-Step Setup:
+1. Fork the Repository
+Click on the Fork button at the top-right corner of the repository page on GitHub.
+This will create a personal copy of the repository under your account.
+
+2. Clone Your Fork Locally
+Copy the URL of your fork.
+Run the following command in your terminal to clone it to your computer:
+git clone https://github.com/your-username/project-name.git
+
+3. Navigate to the Project Directory
+Once the project is cloned, go into the project folder:
+cd project-name
+
+4. Install Dependencies
+If your project has dependencies, use a package manager like npm, yarn, pip, or any other to install them. Example for Node.js projects:
+npm install
+
+5. Run the Project
+Follow the project’s instructions to run it. For example:
+npm start
